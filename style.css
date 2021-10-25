@@ -1,0 +1,207 @@
+body{
+  margin: 0;
+  background-image: url("world.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: scroll;
+
+
+}
+
+.signbtn{
+  background-color: grey;
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  left: 5%;
+  text-align: right;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 0px #1c1b18;
+	background-color:#eae0c2;
+	border-radius:42px;
+	border:0 solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#080a03;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:8px 10px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#edece8;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.homebtn{
+  height: 1.8rem;
+  width:2rem ;
+  position: relative;
+  top: 2px;
+  float: left;
+}
+
+#myTable{
+  background-color: #C6EBC9;
+  margin: auto;
+  border-collapse: collapse;
+  opacity: .8;
+  width: 100%;
+  overflow-y: scroll;
+
+}
+
+.tbldiv{
+  overflow-y: scroll;
+  height: 170px;
+  padding:0;
+  border: 0;
+  margin: auto;
+  width: 45%;
+}
+
+.searchdiv{
+width: 45%;
+padding:0;
+border: 0;
+margin: auto;
+
+}
+
+
+.searchdiv input[type=text]{
+  font-size: 17px;
+}
+
+
+
+
+#myTable:hover{
+  opacity:1;
+}
+
+.thead{
+  overflow-y: auto;
+
+}
+
+.tbldiv thead th{
+  position: sticky;
+  background-color: #4B6587;
+  overflow-y: auto;
+  top: 0;
+  opacity: 1;
+}
+
+
+.row1{
+  background-color: #D4ECDD;
+
+}
+
+
+.row2{
+  background-color: #345B63;
+  color: #F9F9F9;
+
+}
+
+.row1 a{
+  background-color: #D4ECDD;
+  text-decoration: none;
+  color: black;
+}
+
+.row2 a{
+  background-color: #345B63;
+  color: #F9F9F9;
+  text-decoration: none;
+
+
+}
+
+.footer {
+   position: absolute;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height: 80px;
+
+}
+
+.blankdiv{
+ height: 100px;
+ width: 100px;
+}
+
+.footer a{
+
+  color: #F9F9F9;
+  text-decoration: none;
+}
+
+.Aboutus{
+  background-color: #C6EBC9;
+  margin: auto;
+    width: 45%;
+  opacity: 0.75;
+}
+
+.Aboutus:hover{
+  color: white;
+  background-color: black;
+  opacity:1;
+}
+
+.about{
+  background-color: black;
+  position: inherit;
+  color: white;
+  text-align: center;
+}
+
+
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.content {
+text-align: left;
+display: none;
+width: 45%;
+margin: auto;
+color: white;
+background-color: black;
+
+  }
+
+
+  .plusbtn{
+    height: 1.8rem;
+    width:2rem ;
+
+    top: 2px;
