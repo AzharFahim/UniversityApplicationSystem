@@ -11,6 +11,7 @@ const uniInfo = new mongoose.Schema(
 		FTutition_Range: { type: String},
         DTutition_Range: { type: String},
         Website: { type: String},
+		Type: {type: String },
 	},
 	{ collection: 'Uni_info_page' }
 )
