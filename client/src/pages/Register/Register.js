@@ -8,10 +8,10 @@ function App() {
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
 
-	async function registerUser(event) {
+	async function registerInstitution(event) {
 		event.preventDefault()
 
-		const response = await fetch('http://localhost:3001/api/register', {
+		const response = await fetch('http://localhost:3001/api/register/institutionReg', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -26,14 +26,14 @@ function App() {
 		const data = await response.json()
 
 		if (data.status === 'ok') {
-			navigate('/login')
+			navigate('/login/institutionLogin')
 		}
 	}
 
 	return (
 		<div>
-			<h1>Register</h1>
-			<form onSubmit={registerUser}>
+			<h1>Register Institution</h1>
+			<form onSubmit={registerInstitution}>
 				<input
 					value={name}
 					onChange={(e) => setName(e.target.value)}
